@@ -1,0 +1,387 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konda Naga Anusri</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(40, 36, 36, 0.1);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid white;
+        }
+        .photo-frame {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            margin-left: 0px;
+            float: left;
+            border: 4px solid white;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+        }
+        .buttons {
+            margin: 20px;
+        }
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 14px 28px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: white;
+            color: #007bff;
+        }
+        section {
+            display: none;
+            padding: 30px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            width: 70%;
+            border-radius: 12px;
+            color: black;
+        }
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            border-top: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="photo-frame">
+            <img src="223T1A3222.jpeg" alt="Profile Photo">
+        </div>
+        <h1>Konda Naga Anusri</h1>
+    </header>
+    
+    <div class="buttons">
+        <button onclick="showSection('about')">About Me</button>
+        <button onclick="showSection('skills')">Skills</button>
+        <button onclick="showSection('education')">Education</button>
+        <button onclick="showSection('projects')">Projects</button>
+        <button onclick="showSection('resume')">Resume</button>
+        <button onclick="showSection('contact')">Contact</button>
+    </div>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Konda Naga Anusri, a dedicated and passionate engineering student at Ravindra College of Engineering for Women, specializing in Data Science. With a strong foundation in Data Analysis, Programming in java,Python ,MS PowerBI ,HTML ,CSS , I am eager to apply my knowledge to real-world challenges.
+
+            I have worked on projects involving  AI, robotics,data analysis and continuously strive to learn and innovate. My goal is to develop solutions that make a meaningful impact while honing my technical and analytical skills.
+            
+            Apart from academics, I enjoy coding, designing, participating in hackathons, hand crafts, which help me stay creative and motivated.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java</li>
+            <li><strong>Data Science & Analytics:</strong> Power BI, Machine Learning, Data Visualization</li>
+            <li><strong>Web Development:</strong> HTML, CSS</li>
+            <li><strong>Software & Tools:</strong> Mission Planner</li>
+            <li><strong>Soft Skills:</strong> Problem-Solving, Teamwork, Leadership</li>
+        </ul>
+    </section>
+    
+    
+    <section id="education">
+        <h2>Education</h2>
+        
+        <div>
+            <h3>Bachelor of Technology in Data Science</h3>
+            <p><strong>JNTUA University in Ravindra College of Enginnering for Women</strong> (2022 - 2026)</p>
+            <p>CGPA: 7.9</p>
+        </div>
+    
+        <div>
+            <h3>Intermediate (10+2)</h3>
+            <p><strong>A.P. Model Junior College</strong> (2020 - 2022)</p>
+            <p>Percentage: 77%</p>
+        </div>
+    
+        <div>
+            <h3>Secondary Education (10th Grade)</h3>
+            <p><strong>A.P. Model High School</strong> (2019 - 2020)</p>
+            <p>CGPA: 9.0</p>
+        </div>
+    </section>
+    
+    
+    <section id="projects">
+        <div>
+        <h2>Projects</h2>
+        <div>
+            <h3>🚀 ISRO’s Rover Challenge - 2024</h3>
+            <p><strong>Role:</strong> Communication System Developer</p>
+            <p><strong>Technologies:</strong> Pixhawk Flight Controller, Sik Telemetry Radio, Mission Planner Software</p>
+            <p>Worked as part of a team to develop and optimize the communication system for a Mars rover prototype. Implemented real-time telemetry and pathfinding solutions.</p>
+            </div>
+        </div>
+
+        <div>
+            <h3>📊 Sales Data Analysis Using Power BI</h3>
+            <p><strong>Role:</strong> Data Analyst</p>
+            <p><strong>Technologies:</strong> Power BI, SQL, Excel</p>
+            <p>Developed interactive dashboards to analyze sales trends, customer behavior, and revenue insights, helping businesses make data-driven decisions.</p>
+        </div>
+
+        <div>
+            <h3>🌐 Personal Portfolio Website</h3>
+            <p><strong>Role:</strong> Web Developer & Designer</p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <p>Designed and developed a fully responsive portfolio website to showcase my skills, projects, and experience. Implemented interactive UI elements and navigation for a seamless user experience.</p>
+            <p><strong>Live Demo:</strong> <a href="your-website-link" target="_blank">your-website-link</a></p>
+        </div>
+        
+        
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Click below to view or download my resume.</p>
+        <a href="resume.pdf" download><button>Download Resume</button></a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: nagaanusrikonda@gmail.com</p>
+        <p>Phone: +91 9963115997</p>
+        <p>Location: Andhra Pradesh, Kurnool, Kodumur Mandal</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Konda Naga Anusri. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konda Naga Anusri</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(40, 36, 36, 0.1);
+            color: white;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid white;
+        }
+        .photo-frame {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+            margin-left: 0px;
+            float: left;
+            border: 4px solid white;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+        }
+        .buttons {
+            margin: 20px;
+        }
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid white;
+            padding: 14px 28px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: white;
+            color: #007bff;
+        }
+        section {
+            display: none;
+            padding: 30px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            width: 70%;
+            border-radius: 12px;
+            color: black;
+        }
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            border-top: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="photo-frame">
+            <img src="223T1A3222.jpeg" alt="Profile Photo">
+        </div>
+        <h1>Konda Naga Anusri</h1>
+    </header>
+    
+    <div class="buttons">
+        <button onclick="showSection('about')">About Me</button>
+        <button onclick="showSection('skills')">Skills</button>
+        <button onclick="showSection('education')">Education</button>
+        <button onclick="showSection('projects')">Projects</button>
+        <button onclick="showSection('resume')">Resume</button>
+        <button onclick="showSection('contact')">Contact</button>
+    </div>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Konda Naga Anusri, a dedicated and passionate engineering student at Ravindra College of Engineering for Women, specializing in Data Science. With a strong foundation in Data Analysis, Programming in java,Python ,MS PowerBI ,HTML ,CSS , I am eager to apply my knowledge to real-world challenges.
+
+            I have worked on projects involving  AI, robotics,data analysis and continuously strive to learn and innovate. My goal is to develop solutions that make a meaningful impact while honing my technical and analytical skills.
+            
+            Apart from academics, I enjoy coding, designing, participating in hackathons, hand crafts, which help me stay creative and motivated.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, Java</li>
+            <li><strong>Data Science & Analytics:</strong> Power BI, Machine Learning, Data Visualization</li>
+            <li><strong>Web Development:</strong> HTML, CSS</li>
+            <li><strong>Software & Tools:</strong> Mission Planner</li>
+            <li><strong>Soft Skills:</strong> Problem-Solving, Teamwork, Leadership</li>
+        </ul>
+    </section>
+    
+    
+    <section id="education">
+        <h2>Education</h2>
+        
+        <div>
+            <h3>Bachelor of Technology in Data Science</h3>
+            <p><strong>JNTUA University in Ravindra College of Enginnering for Women</strong> (2022 - 2026)</p>
+            <p>CGPA: 7.9</p>
+        </div>
+    
+        <div>
+            <h3>Intermediate (10+2)</h3>
+            <p><strong>A.P. Model Junior College</strong> (2020 - 2022)</p>
+            <p>Percentage: 77%</p>
+        </div>
+    
+        <div>
+            <h3>Secondary Education (10th Grade)</h3>
+            <p><strong>A.P. Model High School</strong> (2019 - 2020)</p>
+            <p>CGPA: 9.0</p>
+        </div>
+    </section>
+    
+    
+    <section id="projects">
+        <div>
+        <h2>Projects</h2>
+        <div>
+            <h3>🚀 ISRO’s Rover Challenge - 2024</h3>
+            <p><strong>Role:</strong> Communication System Developer</p>
+            <p><strong>Technologies:</strong> Pixhawk Flight Controller, Sik Telemetry Radio, Mission Planner Software</p>
+            <p>Worked as part of a team to develop and optimize the communication system for a Mars rover prototype. Implemented real-time telemetry and pathfinding solutions.</p>
+            </div>
+        </div>
+
+        <div>
+            <h3>📊 Sales Data Analysis Using Power BI</h3>
+            <p><strong>Role:</strong> Data Analyst</p>
+            <p><strong>Technologies:</strong> Power BI, SQL, Excel</p>
+            <p>Developed interactive dashboards to analyze sales trends, customer behavior, and revenue insights, helping businesses make data-driven decisions.</p>
+        </div>
+
+        <div>
+            <h3>🌐 Personal Portfolio Website</h3>
+            <p><strong>Role:</strong> Web Developer & Designer</p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+            <p>Designed and developed a fully responsive portfolio website to showcase my skills, projects, and experience. Implemented interactive UI elements and navigation for a seamless user experience.</p>
+            <p><strong>Live Demo:</strong> <a href="your-website-link" target="_blank">your-website-link</a></p>
+        </div>
+        
+        
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Click below to view or download my resume.</p>
+        <a href="resume.pdf" download><button>Download Resume</button></a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: nagaanusrikonda@gmail.com</p>
+        <p>Phone: +91 9963115997</p>
+        <p>Location: Andhra Pradesh, Kurnool, Kodumur Mandal</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Konda Naga Anusri. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+>>>>>>> 6123b5a (Configured Git and updated files)
